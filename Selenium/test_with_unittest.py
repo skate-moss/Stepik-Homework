@@ -71,6 +71,7 @@ class Test(unittest.TestCase):
 
         finally:
             # закрываем браузер после всех манипуляций
+            time.sleep(5)
             browser.quit()
 
 if __name__ == "__main__":
